@@ -1,0 +1,63 @@
+All questions are optional, though try to answer at least 4. The main goal of this file is to get you thinking critically about your own work, but we will also use these self reflections at the end of the semester when we do our internal review of the course.
+
+ArrayDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: The wrap index method would've helped me.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: Coding a project with little guidance.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: My add first method in array sequence, cause I would create a temporary array and then add everything from the original array into the temp array and make the original array point to the temp array.
+
+Q: What did you learn by talking to your partner about writing ArrayDeque?
+
+A: How the circle implementation of Array Deque worked.
+
+Q: What do you wish you would have known before writing ArrayDeque, if anything?
+
+A: How to implement the array deque as a circle.
+
+Q: If you wrote ArrayDeque again, what would you do differently, if anything?
+
+A: Treat it as a circle.
+
+-----
+
+LinkedListDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: Sentinel wraps to itself not null, if you're using 1 sentinel node.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: Figuring out how to write the get method recursively
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A:My remove methods weren't very clean.
+
+Q: What did you learn by talking to your partner about writing LinkedListDeque?
+
+A: Using 1 sentinel node and 2 sentinel nodes would still be very similar.
+
+Q: What do you wish you would have known before writing LinkedListDeque, if anything?
+
+A: How to implement it as a circle.
+
+Q: If you wrote LinkedListDeque again, what would you do differently, if anything?
+
+A: I would use 1 sentinel node
+
+-----
+
+Meta:
+
+Q: Did you like this design review process? Anything we should do differently next time?
+
+A: Yeah it was solid. Uh not really much needs to change.

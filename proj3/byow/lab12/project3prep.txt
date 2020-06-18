@@ -1,0 +1,34 @@
+Q: Can you think of an analogy between the process of tesselating hexagons and randomly generating a world using rooms and hallways? 
+What is the hexagon and what is the tesselation on the Project 3 side?
+
+A: The hexagons are the blocks we use to build the world, which in this case are the rooms and the hallways. The tesselation is the combination of these rooms and hallways to create the world
+we want.
+
+-----
+Q: If you were to start working on world generation, what kind of method would you think of writing first? 
+Think back to the lab and the process used to eventually get to tesselating hexagons.
+
+A: I would probably start by writing a method that simply creates a room or a hallways just by iteself. Later I would try to piece them together to make the world.
+
+-----
+Q: What distinguishes a hallway from a room? How are they similar?
+
+A: Rooms are usually rectangular and should have a width and a length that are random. Hallways are all the same width but have a length that is random. They are similar in how both have a
+rectangle shape and have randomly generated length.
+
+-----
+Q: For tesselating hexagons, one of the hardest parts is figuring out where to place each hexagon/how to easily place hexagons on screen in an algorithmic way. 
+After looking at your own implemention, consider the implementation provided near the end of the lab. 
+How did your implementation differ from the given one? What lessons can be learned from it?
+
+A: My planned implementation seemed to be more complicated than it needed to be, since it looked at different hexagons from different angles, while you only had to recognize the pattern that
+the hexagons were just aligned in vertical stacks of increasing length until it hits the middle.
+
+-----
+Q: Consider an algorithm for placing rooms and hallways on your map. 
+Ideally, consider many algorithms and think about what makes some easier or harder to implement. Try and bring those ideas together into a single simple algorithm which accomplishes the task. 
+In general, algorithms with as few edge cases as possible are better algorithms.
+
+A: Perhaps I would take a room, place it on the world grid with coordinates that would not put it offscreen or over other present areas, choose a random side of that room, and connect a hallway 
+to it and allow the hallway to extend for a random length before turning and continuting to extend, allthewhile checking if it will run offscreen or over other present areas and fixing its route
+accordingly.
